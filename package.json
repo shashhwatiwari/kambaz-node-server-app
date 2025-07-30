@@ -1,0 +1,32 @@
+{
+  "name": "kambaz-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP web server for the Kambaz application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashhwatiwari/kambaz-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development",
+    "CS5610",
+    "CS5610"
+  ],
+  "author": "Shashwat Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashhwatiwari/kambaz-node-server-app/issues"
+  },
+  "homepage": "https://github.com/shashhwatiwari/kambaz-node-server-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

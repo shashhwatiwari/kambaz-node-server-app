@@ -1,6 +1,7 @@
 {
   "name": "kambaz-node-server-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "Node.js HTTP web server for the Kambaz application ",
   "main": "index.js",
   "scripts": {

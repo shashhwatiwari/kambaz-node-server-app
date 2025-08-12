@@ -2,9 +2,11 @@
 import { v4 as uuidv4 } from 'uuid';
 import model from "./model.js";
 
-export function findAllCourses() {
-    return model.find;
-}
+export const findAllCourses = async () => {
+    const courses = await model.find();
+    console.log("DAO found courses:", courses); // ADD THIS
+    return courses;
+};
 
 export function getCourse(cid) {
     return model.findById(cid);

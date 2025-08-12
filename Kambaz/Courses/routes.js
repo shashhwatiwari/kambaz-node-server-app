@@ -52,13 +52,16 @@ import * as enrollmentsDao from "../Enrollments/dao.js";
 
 export default function CourseRoutes(app) {
     app.get("/api/courses", async (req, res) => {
-        try {
-            const courses = await dao.findAllCourses();
-            res.send(courses);
-        } catch (error) {
-            res.status(500).json({ error: error.message });
-        }
-    });
+    try {
+        console.log("GET /api/courses called"); // ADD THIS
+        const courses = await dao.findAllCourses();
+        console.log("Courses found:", courses); // ADD THIS
+        res.send(courses);
+    } catch (error) {
+        console.error("Error in courses route:", error); // ADD THIS
+        res.status(500).json({ error: error.message });
+    }
+});
 
     app.get("/api/courses/:cid", async (req, res) => {
         try {

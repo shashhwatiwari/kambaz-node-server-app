@@ -1,687 +1,626 @@
-export default [
-  {
-    "_id": "M101",
-    "name": "Web Development",
-    "description": "Learn to build modern web apps using React and Node.js",
-    "course": "CS101",
-    "lessons": [
-      {
-        "_id": "L101",
-        "name": "HTML & CSS Basics",
-        "description": "Introduction to HTML5 and CSS3 for structuring and styling pages.",
-        "module": "M101"
-      },
-      {
-        "_id": "L102",
-        "name": "JavaScript Essentials",
-        "description": "Core JavaScript concepts for frontend interactivity.",
-        "module": "M101"
-      },
-      {
-        "_id": "L103",
-        "name": "React Fundamentals",
-        "description": "Building reusable components with React.",
-        "module": "M101"
-      },
-      {
-        "_id": "L104",
-        "name": "Node.js and Express",
-        "description": "Backend development with Node.js and Express.js.",
-        "module": "M101"
-      }
-    ]
-  },
-  {
-    "_id": "M102",
-    "name": "Advanced Frontend Development",
-    "description": "Dive deeper into frontend performance, state management, and tooling.",
-    "course": "CS101",
-    "lessons": [
-      {
-        "_id": "L201",
-        "name": "React State Management",
-        "description": "Managing application state using Context API and Redux.",
-        "module": "M102"
-      },
-      {
-        "_id": "L202",
-        "name": "Routing with React Router",
-        "description": "Implementing dynamic routing in single-page applications.",
-        "module": "M102"
-      },
-      {
-        "_id": "L203",
-        "name": "Optimizing Performance",
-        "description": "Techniques for improving frontend performance and lazy loading.",
-        "module": "M102"
-      },
-      {
-        "_id": "L204",
-        "name": "Webpack and Build Tools",
-        "description": "Introduction to bundlers like Webpack and configuring builds.",
-        "module": "M102"
-      }
-    ]
-  },
-  {
-    "_id": "M103",
-    "name": "Full Stack Integration",
-    "description": "Learn how to connect frontend and backend, manage databases, and deploy apps.",
-    "course": "CS101",
-    "lessons": [
-      {
-        "_id": "L301",
-        "name": "RESTful API Design",
-        "description": "Designing and consuming RESTful APIs using Express.js.",
-        "module": "M103"
-      },
-      {
-        "_id": "L302",
-        "name": "MongoDB Integration",
-        "description": "Using MongoDB and Mongoose for data modeling and persistence.",
-        "module": "M103"
-      },
-      {
-        "_id": "L303",
-        "name": "Authentication & Authorization",
-        "description": "Implementing user authentication using JWT and middleware.",
-        "module": "M103"
-      },
-      {
-        "_id": "L304",
-        "name": "Deployment & Hosting",
-        "description": "Deploying web apps using platforms like Heroku and Vercel.",
-        "module": "M103"
-      }
-    ]
-  },
-
-
-
-
-  {
-    "_id": "M201",
-    "name": "Algorithms & Data Structures",
-    "course": "CS102",
-    "description": "In-depth study of searching, sorting, graphs, and recursion",
-    "lessons": [
-      {
-        "_id": "L401",
-        "name": "Sorting Algorithms",
-        "description": "Learn and analyze bubble, merge, quick, and heap sort.",
-        "module": "M201"
-      },
-      {
-        "_id": "L402",
-        "name": "Search Techniques",
-        "description": "Understand binary search, DFS, and BFS.",
-        "module": "M201"
-      },
-      {
-        "_id": "L403",
-        "name": "Recursion and Backtracking",
-        "description": "Recursive problem solving and optimization techniques.",
-        "module": "M201"
-      },
-      {
-        "_id": "L404",
-        "name": "Graphs and Trees",
-        "description": "Introduction to graph and tree data structures.",
-        "module": "M201"
-      }
-    ]
-  },
-
-  {
-    "_id": "M202",
-    "name": "Advanced Data Structures",
-    "course": "CS102",
-    "description": "Explore complex data structures and their real-world applications.",
-    "lessons": [
-      {
-        "_id": "L501",
-        "name": "Heaps and Priority Queues",
-        "description": "Understand binary heaps and how to implement priority queues.",
-        "module": "M202"
-      },
-      {
-        "_id": "L502",
-        "name": "Hash Tables",
-        "description": "Learn about hash functions, collision handling, and performance.",
-        "module": "M202"
-      },
-      {
-        "_id": "L503",
-        "name": "Tries and Suffix Trees",
-        "description": "Efficient string manipulation using trie-based structures.",
-        "module": "M202"
-      },
-      {
-        "_id": "L504",
-        "name": "Disjoint Sets and Union-Find",
-        "description": "Solve dynamic connectivity problems using union-find structures.",
-        "module": "M202"
-      }
-    ]
-  },
-
-  {
-    "_id": "M203",
-    "name": "Algorithmic Problem Solving",
-    "course": "CS102",
-    "description": "Apply algorithms to solve real-world and competitive problems.",
-    "lessons": [
-      {
-        "_id": "L601",
-        "name": "Dynamic Programming Basics",
-        "description": "Learn overlapping subproblems and optimal substructure techniques.",
-        "module": "M203"
-      },
-      {
-        "_id": "L602",
-        "name": "Greedy Algorithms",
-        "description": "Greedy strategies and when they lead to optimal solutions.",
-        "module": "M203"
-      },
-      {
-        "_id": "L603",
-        "name": "Divide and Conquer",
-        "description": "Design algorithms that break problems into subproblems recursively.",
-        "module": "M203"
-      },
-      {
-        "_id": "L604",
-        "name": "Algorithmic Complexity and Big-O",
-        "description": "Measure and compare algorithm efficiency using time and space complexity.",
-        "module": "M203"
-      }
-    ]
-  },
-
-
-
-
-  {
-    "_id": "M301",
-    "name": "Artificial Intelligence",
-    "course": "CS103",
-    "description": "Explore AI fundamentals like search, logic, and learning",
-    "lessons": [
-      {
-        "_id": "L701",
-        "name": "Search Algorithms in AI",
-        "description": "Uninformed and informed search strategies.",
-        "module": "M301"
-      },
-      {
-        "_id": "L702",
-        "name": "Knowledge Representation and Logic",
-        "description": "Using logic to represent and reason about knowledge.",
-        "module": "M301"
-      },
-      {
-        "_id": "L703",
-        "name": "Machine Learning Basics",
-        "description": "Introduction to supervised and unsupervised learning.",
-        "module": "M301"
-      },
-      {
-        "_id": "L704",
-        "name": "Neural Networks Overview",
-        "description": "Basics of neural networks and deep learning.",
-        "module": "M301"
-      }
-    ]
-  },
-
-  {
-    "_id": "M302",
-    "name": "Advanced Topics in AI",
-    "course": "CS103",
-    "description": "Delve into modern AI techniques and applications.",
-    "lessons": [
-      {
-        "_id": "L801",
-        "name": "Natural Language Processing",
-        "description": "Techniques to process and understand human language.",
-        "module": "M302"
-      },
-      {
-        "_id": "L802",
-        "name": "Computer Vision",
-        "description": "How machines interpret and process visual information.",
-        "module": "M302"
-      },
-      {
-        "_id": "L803",
-        "name": "Reinforcement Learning",
-        "description": "Learning through trial and error using rewards.",
-        "module": "M302"
-      },
-      {
-        "_id": "L804",
-        "name": "AI in Robotics",
-        "description": "Application of AI techniques in robotics and automation.",
-        "module": "M302"
-      }
-    ]
-  },
-
-  {
-    "_id": "M303",
-    "name": "Ethics and Applications of AI",
-    "course": "CS103",
-    "description": "Understand the impact and ethical concerns surrounding AI.",
-    "lessons": [
-      {
-        "_id": "L901",
-        "name": "Bias and Fairness in AI",
-        "description": "Understanding algorithmic bias and how to mitigate it.",
-        "module": "M303"
-      },
-      {
-        "_id": "L902",
-        "name": "AI and Society",
-        "description": "Implications of AI on employment, privacy, and policy.",
-        "module": "M303"
-      },
-      {
-        "_id": "L903",
-        "name": "Explainable AI (XAI)",
-        "description": "Making AI decisions transparent and interpretable.",
-        "module": "M303"
-      },
-      {
-        "_id": "L904",
-        "name": "Future of Artificial Intelligence",
-        "description": "Exploring AGI, trends, and the future landscape of AI.",
-        "module": "M303"
-      }
-    ]
-  },
-
-
-
-
-  {
-    "_id": "M401",
-    "name": "Human Computer Interaction",
-    "course": "CS104",
-    "description": "Study user interfaces and user experience design",
-    "lessons": [
-      {
-        "_id": "L1001",
-        "name": "Principles of HCI",
-        "description": "Understanding human-centered design and usability.",
-        "module": "M401"
-      },
-      {
-        "_id": "L1002",
-        "name": "User Research Methods",
-        "description": "Interviews, surveys, and user testing techniques.",
-        "module": "M401"
-      },
-      {
-        "_id": "L1003",
-        "name": "Prototyping and Wireframing",
-        "description": "Creating mockups and interaction models.",
-        "module": "M401"
-      }
-    ]
-  },
-
-  {
-    "_id": "M402",
-    "name": "Interface Design and Evaluation",
-    "course": "CS104",
-    "description": "Explore visual design, accessibility, and evaluation techniques.",
-    "lessons": [
-      {
-        "_id": "L1101",
-        "name": "Visual Design Principles",
-        "description": "Color theory, typography, and layout in interface design.",
-        "module": "M402"
-      },
-      {
-        "_id": "L1102",
-        "name": "Accessibility in Design",
-        "description": "Creating inclusive and accessible digital interfaces.",
-        "module": "M402"
-      },
-      {
-        "_id": "L1103",
-        "name": "Usability Evaluation Techniques",
-        "description": "Heuristic evaluation, cognitive walkthroughs, and usability testing.",
-        "module": "M402"
-      },
-      {
-        "_id": "L1104",
-        "name": "Interaction Design Patterns",
-        "description": "Common UI patterns and best practices.",
-        "module": "M402"
-      }
-    ]
-  },
-
-  {
-    "_id": "M403",
-    "name": "Emerging Topics in HCI",
-    "course": "CS104",
-    "description": "Understand modern HCI trends and technologies.",
-    "lessons": [
-      {
-        "_id": "L1201",
-        "name": "HCI for Mobile and Wearables",
-        "description": "Design considerations for mobile devices and wearable tech.",
-        "module": "M403"
-      },
-      {
-        "_id": "L1202",
-        "name": "Voice and Gesture Interfaces",
-        "description": "Exploring multimodal interaction paradigms.",
-        "module": "M403"
-      },
-      {
-        "_id": "L1203",
-        "name": "Augmented and Virtual Reality Interfaces",
-        "description": "Designing interactive experiences in AR/VR environments.",
-        "module": "M403"
-      },
-      {
-        "_id": "L1204",
-        "name": "Ethics and Privacy in HCI",
-        "description": "Addressing ethical concerns and user privacy in interface design.",
-        "module": "M403"
-      }
-    ]
+export default[
+    {
+        "_id": "M101",
+        "name": "Introduction to Rocket Propulsion",
+        "description": "Basic principles of rocket propulsion and rocket engines.",
+        "course": "RS101",
+        "lessons": [
+            {
+                "_id": "L101",
+                "name": "History of Rocketry",
+                "description": "A brief history of rocketry and space exploration.",
+                "module": "M101"
+            },
+            {
+                "_id": "L102",
+                "name": "Rocket Propulsion Fundamentals",
+                "description": "Basic principles of rocket propulsion.",
+                "module": "M101"
+            },
+            {
+                "_id": "L103",
+                "name": "Rocket Engine Types",
+                "description": "Overview of different types of rocket engines.",
+                "module": "M101"
+            }
+        ]
     },
-
-
-
-
-
-  {
-    "_id": "M501",
-    "name": "Cybersecurity Basics",
-    "course": "CS105",
-    "description": "Introduction to digital security, encryption, and threats",
-    "lessons": [
-      {
-        "_id": "L1301",
-        "name": "Cyber Threat Landscape",
-        "description": "Common cyber attacks and vulnerabilities.",
-        "module": "M501"
-      },
-      {
-        "_id": "L1302",
-        "name": "Encryption Techniques",
-        "description": "Symmetric and asymmetric cryptography fundamentals.",
-        "module": "M501"
-      },
-      {
-        "_id": "L1303",
-        "name": "Network Security",
-        "description": "Defending networks from unauthorized access.",
-        "module": "M501"
-      }
-    ]
-  },
-
-  {
-    "_id": "M502",
-    "name": "System and Application Security",
-    "course": "CS105",
-    "description": "Explore how to secure operating systems, applications, and endpoints.",
-    "lessons": [
-      {
-        "_id": "L1401",
-        "name": "Operating System Security",
-        "description": "Protecting OS-level resources and user privileges.",
-        "module": "M502"
-      },
-      {
-        "_id": "L1402",
-        "name": "Web Application Security",
-        "description": "Mitigating common web threats like XSS and SQL injection.",
-        "module": "M502"
-      },
-      {
-        "_id": "L1403",
-        "name": "Endpoint Protection",
-        "description": "Securing end-user devices with antivirus and patching.",
-        "module": "M502"
-      },
-      {
-        "_id": "L1404",
-        "name": "Security Misconfigurations",
-        "description": "Recognizing and correcting weak system settings.",
-        "module": "M502"
-      }
-    ]
+    {
+        "_id": "M102",
+        "name": "Fuel and Combustion",
+        "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+        "course": "RS101",
+        "lessons": [
+            {
+                "_id": "L201",
+                "name": "Rocket Fuel Types",
+                "description": "Overview of different types of rocket fuels and their properties.",
+                "module": "M102"
+            },
+            {
+                "_id": "L202",
+                "name": "Combustion Processes",
+                "description": "Understanding combustion processes and efficiency in rocket engines.",
+                "module": "M102"
+            },
+            {
+                "_id": "L203",
+                "name": "Combustion Instability",
+                "description": "Understanding combustion instability and mitigation strategies.",
+                "module": "M102"
+            }
+        ]
     },
-
-  {
-    "_id": "M503",
-    "name": "Cybersecurity Practices and Ethics",
-    "course": "CS105",
-    "description": "Focus on security protocols, compliance, and ethical considerations.",
-    "lessons": [
-      {
-        "_id": "L1501",
-        "name": "Security Policies and Protocols",
-        "description": "Establishing secure communication and organizational policies.",
-        "module": "M503"
-      },
-      {
-        "_id": "L1502",
-        "name": "Incident Response and Recovery",
-        "description": "How to handle and recover from cyber incidents.",
-        "module": "M503"
-      },
-      {
-        "_id": "L1503",
-        "name": "Ethical Hacking and Pen Testing",
-        "description": "Using offensive strategies to test security defenses.",
-        "module": "M503"
-      },
-      {
-        "_id": "L1504",
-        "name": "Legal and Ethical Issues",
-        "description": "Cyber laws, data privacy, and ethical responsibilities.",
-        "module": "M503"
-      }
-    ]
+    {
+        "_id": "M103",
+        "name": "Nozzle Design",
+        "description": "Principles of rocket nozzle design and performance optimization.",
+        "course": "RS101",
+        "lessons": [
+            {
+                "_id": "L301",
+                "name": "Nozzle Fundamentals",
+                "description": "Basic principles of rocket nozzle design and operation.",
+                "module": "M103"
+            },
+            {
+                "_id": "L302",
+                "name": "Nozzle Performance",
+                "description": "Understanding nozzle performance metrics and efficiency.",
+                "module": "M103"
+            },
+            {
+                "_id": "L303",
+                "name": "Nozzle Optimization",
+                "description": "Optimizing nozzle design for specific mission requirements.",
+                "module": "M103"
+            }
+        ]
     },
-
-
-
-
-  {
-    "_id": "M106",
-    "name": "Cloud Computing Basics",
-    "course": "CS106",
-    "description": "Learn about AWS, distributed systems, and scalability",
-    "lessons": [
-      {
-        "_id": "L1601",
-        "name": "Cloud Service Models",
-        "description": "Overview of IaaS, PaaS, and SaaS models.",
-        "module": "M106"
-      },
-      {
-        "_id": "L1602",
-        "name": "AWS Core Services",
-        "description": "Intro to EC2, S3, Lambda, and other AWS services.",
-        "module": "M106"
-      },
-      {
-        "_id": "L1603",
-        "name": "Scalability and Load Balancing",
-        "description": "Techniques for building scalable cloud applications.",
-        "module": "M106"
-      }
-    ]
-  },
-
-  {
-    "_id": "M107",
-    "name": "Cloud Architecture and Deployment",
-    "course": "CS106",
-    "description": "Design, deploy, and manage cloud-based infrastructure.",
-    "lessons": [
-      {
-        "_id": "L1701",
-        "name": "Virtualization and Containers",
-        "description": "Understanding VMs, Docker, and container orchestration.",
-        "module": "M107"
-      },
-      {
-        "_id": "L1702",
-        "name": "Infrastructure as Code",
-        "description": "Using tools like Terraform and CloudFormation for automation.",
-        "module": "M107"
-      },
-      {
-        "_id": "L1703",
-        "name": "Cloud Deployment Models",
-        "description": "Public, private, hybrid, and multicloud strategies.",
-        "module": "M107"
-      },
-      {
-        "_id": "L1704",
-        "name": "Monitoring and Logging",
-        "description": "Tracking and managing system health and performance in the cloud.",
-        "module": "M107"
-      }
-    ]
+    {
+        "_id": "M201",
+        "name": "Fundamentals of Aerodynamics",
+        "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+        "course": "RS102",
+        "lessons": [
+            {
+                "_id": "L401",
+                "name": "Fluid Dynamics Principles",
+                "description": "Basic principles of fluid dynamics and flow behavior.",
+                "module": "M201"
+            },
+            {
+                "_id": "L402",
+                "name": "Aerodynamic Forces",
+                "description": "Understanding lift, drag, and other aerodynamic forces.",
+                "module": "M201"
+            },
+            {
+                "_id": "L403",
+                "name": "Boundary Layer Theory",
+                "description": "Study of boundary layer formation and effects on airflow.",
+                "module": "M201"
+            }
+        ]
     },
-
-  {
-    "_id": "M108",
-    "name": "Cloud Security and Cost Optimization",
-    "course": "CS106",
-    "description": "Secure your cloud resources and manage operational costs.",
-    "lessons": [
-      {
-        "_id": "L1801",
-        "name": "Cloud Security Fundamentals",
-        "description": "Best practices for securing cloud infrastructure and services.",
-        "module": "M108"
-      },
-      {
-        "_id": "L1802",
-        "name": "Identity and Access Management (IAM)",
-        "description": "Managing permissions and authentication in the cloud.",
-        "module": "M108"
-      },
-      {
-        "_id": "L1803",
-        "name": "Disaster Recovery and Backups",
-        "description": "Ensuring availability and resilience through backup strategies.",
-        "module": "M108"
-      },
-      {
-        "_id": "L1804",
-        "name": "Cloud Cost Management",
-        "description": "Monitoring usage and reducing unnecessary cloud expenses.",
-        "module": "M108"
-      }
-    ]
+    {
+        "_id": "M202",
+        "name": "Subsonic and Supersonic Flow",
+        "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+        "course": "RS102",
+        "lessons": [
+            {
+                "_id": "L501",
+                "name": "Subsonic Flow Characteristics",
+                "description": "Properties and behavior of subsonic airflow patterns.",
+                "module": "M202"
+            },
+            {
+                "_id": "L502",
+                "name": "Supersonic Flow Dynamics",
+                "description": "Understanding supersonic flow and shock wave formation.",
+                "module": "M202"
+            },
+            {
+                "_id": "L503",
+                "name": "Transonic Flow Effects",
+                "description": "Study of transonic flow and critical Mach number effects.",
+                "module": "M202"
+            }
+        ]
     },
-
-
-
-
-
-
-  {
-    "_id": "M701",
-    "name": "Blockchain Fundamentals",
-    "course": "CS107",
-    "description": "Understand how blockchains and smart contracts work",
-    "lessons": [
-      {
-        "_id": "L1901",
-        "name": "Blockchain Basics",
-        "description": "How blockchain works: blocks, hashes, consensus.",
-        "module": "M701"
-      },
-      {
-        "_id": "L1902",
-        "name": "Smart Contracts",
-        "description": "Writing and deploying smart contracts on Ethereum.",
-        "module": "M701"
-      },
-      {
-        "_id": "L1903",
-        "name": "Blockchain Applications",
-        "description": "Use cases beyond cryptocurrency.",
-        "module": "M701"
-      }
-    ]
-  },
-  {
-    "_id": "M702",
-    "name": "Decentralized Technologies",
-    "course": "CS107",
-    "description": "Explore technologies and infrastructure behind decentralized systems.",
-    "lessons": [
-      {
-        "_id": "L2001",
-        "name": "Distributed Ledger Technologies (DLT)",
-        "description": "Different types of ledgers and consensus algorithms.",
-        "module": "M702"
-      },
-      {
-        "_id": "L2002",
-        "name": "Consensus Mechanisms",
-        "description": "Proof of Work, Proof of Stake, and emerging models.",
-        "module": "M702"
-      },
-      {
-        "_id": "L2003",
-        "name": "Node Architecture and Networking",
-        "description": "How blockchain nodes communicate and validate transactions.",
-        "module": "M702"
-      },
-      {
-        "_id": "L2004",
-        "name": "Token Standards (ERC-20, ERC-721)",
-        "description": "Understanding fungible and non-fungible token protocols.",
-        "module": "M702"
-      }
-    ]
+    {
+        "_id": "M203",
+        "name": "Aerodynamic Heating",
+        "description": "Study of aerodynamic heating and thermal protection systems.",
+        "course": "RS102",
+        "lessons": [
+            {
+                "_id": "L601",
+                "name": "Heat Transfer Mechanisms",
+                "description": "Understanding convective and radiative heat transfer in flight.",
+                "module": "M203"
+            },
+            {
+                "_id": "L602",
+                "name": "Thermal Protection Systems",
+                "description": "Design and materials for thermal protection systems.",
+                "module": "M203"
+            },
+            {
+                "_id": "L603",
+                "name": "Re-entry Heating Analysis",
+                "description": "Analysis of heating effects during atmospheric re-entry.",
+                "module": "M203"
+            }
+        ]
     },
-  {
-    "_id": "M703",
-    "name": "Blockchain Development and Security",
-    "course": "CS107",
-    "description": "Learn to develop secure blockchain apps and understand vulnerabilities.",
-    "lessons": [
-      {
-        "_id": "L2101",
-        "name": "Solidity Programming",
-        "description": "Intro to Solidity for building Ethereum-based smart contracts.",
-        "module": "M703"
-      },
-      {
-        "_id": "L2102",
-        "name": "Decentralized Applications (DApps)",
-        "description": "Structure, design, and deployment of DApps.",
-        "module": "M703"
-      },
-      {
-        "_id": "L2103",
-        "name": "Smart Contract Security",
-        "description": "Common vulnerabilities and how to secure smart contracts.",
-        "module": "M703"
-      },
-      {
-        "_id": "L2104",
-        "name": "Blockchain Ecosystem & Tools",
-        "description": "Explore tools like MetaMask, Truffle, and Hardhat.",
-        "module": "M703"
-      }
-    ]
+    {
+        "_id": "M301",
+        "name": "Spacecraft Structural Design",
+        "description": "Fundamentals of designing spacecraft structures and materials selection.",
+        "course": "RS103",
+        "lessons": [
+            {
+                "_id": "L701",
+                "name": "Structural Materials",
+                "description": "Overview of materials used in spacecraft construction.",
+                "module": "M301"
+            },
+            {
+                "_id": "L702",
+                "name": "Load Analysis",
+                "description": "Understanding structural loads and stress analysis in spacecraft.",
+                "module": "M301"
+            },
+            {
+                "_id": "L703",
+                "name": "Structural Design Optimization",
+                "description": "Optimizing spacecraft structures for weight and performance.",
+                "module": "M301"
+            }
+        ]
+    },
+    {
+        "_id": "M302",
+        "name": "Orbital Mechanics",
+        "description": "Understanding orbital dynamics and mission planning.",
+        "course": "RS103",
+        "lessons": [
+            {
+                "_id": "L801",
+                "name": "Kepler's Laws and Orbital Elements",
+                "description": "Fundamental laws governing orbital motion and orbit description.",
+                "module": "M302"
+            },
+            {
+                "_id": "L802",
+                "name": "Orbital Transfers",
+                "description": "Planning and executing orbital transfer maneuvers.",
+                "module": "M302"
+            },
+            {
+                "_id": "L803",
+                "name": "Mission Design",
+                "description": "Comprehensive mission planning and trajectory design.",
+                "module": "M302"
+            }
+        ]
+    },
+    {
+        "_id": "M303",
+        "name": "Spacecraft Systems Engineering",
+        "description": "Overview of spacecraft systems and subsystems engineering.",
+        "course": "RS103",
+        "lessons": [
+            {
+                "_id": "L901",
+                "name": "Power Systems",
+                "description": "Design and management of spacecraft power systems.",
+                "module": "M303"
+            },
+            {
+                "_id": "L902",
+                "name": "Communication Systems",
+                "description": "Spacecraft communication and data transmission systems.",
+                "module": "M303"
+            },
+            {
+                "_id": "L903",
+                "name": "Attitude Control Systems",
+                "description": "Systems for spacecraft orientation and stabilization.",
+                "module": "M303"
+            }
+        ]
+    },
+    {
+        "_id": "M401",
+        "name": "Organic Molecular Structure",
+        "description": "Study of organic compound structures and bonding patterns.",
+        "course": "RS104",
+        "lessons": [
+            {
+                "_id": "L1001",
+                "name": "Hydrocarbon Structures",
+                "description": "Understanding alkanes, alkenes, and aromatic compounds.",
+                "module": "M401"
+            },
+            {
+                "_id": "L1002",
+                "name": "Functional Groups",
+                "description": "Identification and properties of organic functional groups.",
+                "module": "M401"
+            },
+            {
+                "_id": "L1003",
+                "name": "Stereochemistry",
+                "description": "Three-dimensional structure and chirality in organic molecules.",
+                "module": "M401"
+            }
+        ]
+    },
+    {
+        "_id": "M402",
+        "name": "Organic Reactions and Mechanisms",
+        "description": "Understanding reaction mechanisms and organic synthesis pathways.",
+        "course": "RS104",
+        "lessons": [
+            {
+                "_id": "L1101",
+                "name": "Substitution Reactions",
+                "description": "Nucleophilic and electrophilic substitution mechanisms.",
+                "module": "M402"
+            },
+            {
+                "_id": "L1102",
+                "name": "Addition Reactions",
+                "description": "Addition reactions to alkenes and alkynes.",
+                "module": "M402"
+            },
+            {
+                "_id": "L1103",
+                "name": "Elimination Reactions",
+                "description": "Elimination mechanisms and product formation.",
+                "module": "M402"
+            }
+        ]
+    },
+    {
+        "_id": "M403",
+        "name": "Organic Synthesis and Analysis",
+        "description": "Techniques for organic synthesis and structure determination.",
+        "course": "RS104",
+        "lessons": [
+            {
+                "_id": "L1201",
+                "name": "Synthetic Strategy",
+                "description": "Planning multi-step organic synthesis routes.",
+                "module": "M403"
+            },
+            {
+                "_id": "L1202",
+                "name": "Spectroscopic Methods",
+                "description": "NMR, IR, and mass spectrometry for structure determination.",
+                "module": "M403"
+            },
+            {
+                "_id": "L1203",
+                "name": "Purification Techniques",
+                "description": "Methods for purifying and characterizing organic compounds.",
+                "module": "M403"
+            }
+        ]
+    },
+    {
+        "_id": "M501",
+        "name": "Coordination Chemistry",
+        "description": "Study of metal complexes and coordination compounds.",
+        "course": "RS105",
+        "lessons": [
+            {
+                "_id": "L1301",
+                "name": "Complex Ion Formation",
+                "description": "Formation and stability of metal complexes.",
+                "module": "M501"
+            },
+            {
+                "_id": "L1302",
+                "name": "Ligand Field Theory",
+                "description": "Understanding bonding in coordination compounds.",
+                "module": "M501"
+            },
+            {
+                "_id": "L1303",
+                "name": "Crystal Field Theory",
+                "description": "Electronic structure and magnetic properties of complexes.",
+                "module": "M501"
+            }
+        ]
+    },
+    {
+        "_id": "M502",
+        "name": "Solid State Chemistry",
+        "description": "Properties and structures of inorganic solid materials.",
+        "course": "RS105",
+        "lessons": [
+            {
+                "_id": "L1401",
+                "name": "Crystal Structures",
+                "description": "Understanding crystal lattices and unit cells.",
+                "module": "M502"
+            },
+            {
+                "_id": "L1402",
+                "name": "Defects and Properties",
+                "description": "Point defects and their effects on material properties.",
+                "module": "M502"
+            },
+            {
+                "_id": "L1403",
+                "name": "Electronic Properties",
+                "description": "Conductivity, semiconductivity, and band theory.",
+                "module": "M502"
+            }
+        ]
+    },
+    {
+        "_id": "M503",
+        "name": "Inorganic Synthesis and Applications",
+        "description": "Synthesis methods and applications of inorganic compounds.",
+        "course": "RS105",
+        "lessons": [
+            {
+                "_id": "L1501",
+                "name": "Synthesis Techniques",
+                "description": "Methods for preparing inorganic compounds.",
+                "module": "M503"
+            },
+            {
+                "_id": "L1502",
+                "name": "Catalysis",
+                "description": "Inorganic catalysts and their applications.",
+                "module": "M503"
+            },
+            {
+                "_id": "L1503",
+                "name": "Materials Science Applications",
+                "description": "Inorganic materials in technology and industry.",
+                "module": "M503"
+            }
+        ]
+    },
+    {
+        "_id": "M601",
+        "name": "Thermodynamics",
+        "description": "Study of energy changes and equilibrium in chemical systems.",
+        "course": "RS106",
+        "lessons": [
+            {
+                "_id": "L1601",
+                "name": "Laws of Thermodynamics",
+                "description": "First, second, and third laws of thermodynamics.",
+                "module": "M601"
+            },
+            {
+                "_id": "L1602",
+                "name": "Phase Equilibria",
+                "description": "Phase diagrams and phase transitions.",
+                "module": "M601"
+            },
+            {
+                "_id": "L1603",
+                "name": "Chemical Equilibrium",
+                "description": "Equilibrium constants and Le Chatelier's principle.",
+                "module": "M601"
+            }
+        ]
+    },
+    {
+        "_id": "M602",
+        "name": "Quantum Chemistry",
+        "description": "Quantum mechanical description of atoms and molecules.",
+        "course": "RS106",
+        "lessons": [
+            {
+                "_id": "L1701",
+                "name": "Atomic Structure",
+                "description": "Quantum mechanical model of the atom.",
+                "module": "M602"
+            },
+            {
+                "_id": "L1702",
+                "name": "Molecular Orbitals",
+                "description": "Molecular orbital theory and bonding.",
+                "module": "M602"
+            },
+            {
+                "_id": "L1703",
+                "name": "Spectroscopy",
+                "description": "Quantum mechanics of molecular spectroscopy.",
+                "module": "M602"
+            }
+        ]
+    },
+    {
+        "_id": "M603",
+        "name": "Chemical Kinetics",
+        "description": "Study of reaction rates and mechanisms.",
+        "course": "RS106",
+        "lessons": [
+            {
+                "_id": "L1801",
+                "name": "Reaction Rates",
+                "description": "Rate laws and factors affecting reaction rates.",
+                "module": "M603"
+            },
+            {
+                "_id": "L1802",
+                "name": "Reaction Mechanisms",
+                "description": "Elementary steps and mechanism determination.",
+                "module": "M603"
+            },
+            {
+                "_id": "L1803",
+                "name": "Catalysis and Enzymes",
+                "description": "Catalytic processes and enzyme kinetics.",
+                "module": "M603"
+            }
+        ]
+    },
+    {
+        "_id": "M701",
+        "name": "Elvish Languages",
+        "description": "Study of Sindarin and Quenya languages of the Elves.",
+        "course": "RS107",
+        "lessons": [
+            {
+                "_id": "L1901",
+                "name": "Sindarin Grammar",
+                "description": "Basic grammar and structure of the Sindarin language.",
+                "module": "M701"
+            },
+            {
+                "_id": "L1902",
+                "name": "Quenya Linguistics",
+                "description": "High Elvish language structure and vocabulary.",
+                "module": "M701"
+            },
+            {
+                "_id": "L1903",
+                "name": "Elvish Scripts",
+                "description": "Tengwar and other Elvish writing systems.",
+                "module": "M701"
+            }
+        ]
+    },
+    {
+        "_id": "M702",
+        "name": "Dwarvish and Ancient Scripts",
+        "description": "Study of Khuzdul and other ancient writing systems.",
+        "course": "RS107",
+        "lessons": [
+            {
+                "_id": "L2001",
+                "name": "Khuzdul Language",
+                "description": "The secret language of the Dwarves.",
+                "module": "M702"
+            },
+            {
+                "_id": "L2002",
+                "name": "Runic Scripts",
+                "description": "Cirth and other runic writing systems.",
+                "module": "M702"
+            },
+            {
+                "_id": "L2003",
+                "name": "Ancient Inscriptions",
+                "description": "Deciphering ancient texts and monuments.",
+                "module": "M702"
+            }
+        ]
+    },
+    {
+        "_id": "M703",
+        "name": "Dark Languages and Forbidden Scripts",
+        "description": "Study of the Black Speech and other dark languages.",
+        "course": "RS107",
+        "lessons": [
+            {
+                "_id": "L2101",
+                "name": "Black Speech of Mordor",
+                "description": "The language created by the Dark Lord.",
+                "module": "M703"
+            },
+            {
+                "_id": "L2102",
+                "name": "Orcish Dialects",
+                "description": "Various dialects spoken by different Orc tribes.",
+                "module": "M703"
+            },
+            {
+                "_id": "L2103",
+                "name": "Forbidden Texts",
+                "description": "Analysis of dark texts and their historical context.",
+                "module": "M703"
+            }
+        ]
+    },
+    {
+        "_id": "M801",
+        "name": "Foundations of Middle-earth Diplomacy",
+        "description": "Basic principles of inter-species relations and communication.",
+        "course": "RS108",
+        "lessons": [
+            {
+                "_id": "L2201",
+                "name": "Cultural Understanding",
+                "description": "Understanding different cultures of Middle-earth races.",
+                "module": "M801"
+            },
+            {
+                "_id": "L2202",
+                "name": "Communication Protocols",
+                "description": "Diplomatic protocols and formal communication methods.",
+                "module": "M801"
+            },
+            {
+                "_id": "L2203",
+                "name": "Historical Precedents",
+                "description": "Study of past diplomatic successes and failures.",
+                "module": "M801"
+            }
+        ]
+    },
+    {
+        "_id": "M802",
+        "name": "Alliance Formation and Maintenance",
+        "description": "Study of creating and maintaining alliances between races.",
+        "course": "RS108",
+        "lessons": [
+            {
+                "_id": "L2301",
+                "name": "Treaty Negotiation",
+                "description": "Principles and practices of negotiating treaties.",
+                "module": "M802"
+            },
+            {
+                "_id": "L2302",
+                "name": "Trust Building",
+                "description": "Methods for building trust between different races.",
+                "module": "M802"
+            },
+            {
+                "_id": "L2303",
+                "name": "Alliance Management",
+                "description": "Maintaining long-term diplomatic relationships.",
+                "module": "M802"
+            }
+        ]
+    },
+    {
+        "_id": "M803",
+        "name": "Conflict Resolution and Peacekeeping",
+        "description": "Methods for resolving conflicts and maintaining peace.",
+        "course": "RS108",
+        "lessons": [
+            {
+                "_id": "L2401",
+                "name": "Mediation Techniques",
+                "description": "Mediation and arbitration in inter-species disputes.",
+                "module": "M803"
+            },
+            {
+                "_id": "L2402",
+                "name": "Crisis Management",
+                "description": "Managing diplomatic crises and preventing conflicts.",
+                "module": "M803"
+            },
+            {
+                "_id": "L2403",
+                "name": "Post-Conflict Reconstruction",
+                "description": "Rebuilding relationships after conflicts.",
+                "module": "M803"
+            }
+        ]
     }
-]
+];

@@ -1,16 +1,16 @@
 {
+  "type": "module",
   "name": "kambaz-node-server-app",
   "version": "1.0.0",
-  "type": "module",
-  "description": "Node.js HTTP web server for the Kambaz application ",
+  "description": "Node.js HTTP Web server for the Kambaz application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shashhwatiwari/kambaz-node-server-app.git"
+    "url": "git+https://github.com/Sanshrit/kambaz-node-server-app.git"
   },
   "keywords": [
     "Node",
@@ -19,21 +19,21 @@
     "HTTP",
     "Web",
     "Development",
-    "CS5610",
     "CS5610"
   ],
-  "author": "Shashwat Tiwari",
+  "author": "Sanshrit Bakshi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shashhwatiwari/kambaz-node-server-app/issues"
+    "url": "https://github.com/Sanshrit/kambaz-node-server-app/issues"
   },
-  "homepage": "https://github.com/shashhwatiwari/kambaz-node-server-app#readme",
+  "homepage": "https://github.com/Sanshrit/kambaz-node-server-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
-    "mongoose": "^8.17.1",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10",
     "uuid": "^11.1.0"
   }
 }

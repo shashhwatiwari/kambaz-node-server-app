@@ -1,197 +1,218 @@
 export default [
-  {
-    "_id": "A101",
-    "title": "Responsive Web Design",
-    "course": "CS101",
-    "available": "2024-09-01T00:00",
-    "due": "2024-09-08T23:59",
-    "points": 100,
-    "description": "Create a responsive website layout using HTML5 and CSS3. Ensure proper rendering on desktop and mobile devices."
-  },
-  {
-    "_id": "A102",
-    "title": "React Component Challenge",
-    "course": "CS101",
-    "available": "2024-09-09T00:00",
-    "due": "2024-09-16T23:59",
-    "points": 100,
-    "description": "Build a reusable React component library including forms, cards, and navigation elements. Use props and state effectively."
-  },
-  {
-    "_id": "A103",
-    "title": "Full Stack Web App Project",
-    "course": "CS101",
-    "available": "2024-09-17T00:00",
-    "due": "2024-09-30T23:59",
-    "points": 200,
-    "description": "Develop a full-stack web application using React and Node.js. Implement user authentication and CRUD operations."
-  },
-
-  {
-    "_id": "A201",
-    "title": "Sorting Algorithm Analysis",
-    "course": "CS102",
-    "available": "2024-09-01T00:00",
-    "due": "2024-09-08T23:59",
-    "points": 100,
-    "description": "Implement and compare the performance of bubble, merge, and quick sort on large datasets. Analyze time complexity."
-  },
-  {
-    "_id": "A202",
-    "title": "Graph Traversal Implementation",
-    "course": "CS102",
-    "available": "2024-09-09T00:00",
-    "due": "2024-09-16T23:59",
-    "points": 100,
-    "description": "Use DFS and BFS to traverse directed and undirected graphs. Apply traversal to solve pathfinding problems."
-  },
-  {
-    "_id": "A203",
-    "title": "Dynamic Programming Problem Set",
-    "course": "CS102",
-    "available": "2024-09-17T00:00",
-    "due": "2024-09-24T23:59",
-    "points": 150,
-    "description": "Solve classic dynamic programming problems such as knapsack, LIS, and matrix chain multiplication."
-  },
-
-  {
-    "_id": "A301",
-    "title": "Search Strategy Simulation",
-    "course": "CS103",
-    "available": "2024-09-02T00:00",
-    "due": "2024-09-09T23:59",
-    "points": 100,
-    "description": "Implement uninformed and informed search algorithms such as BFS, DFS, and A*. Simulate pathfinding on a grid."
-  },
-  {
-    "_id": "A302",
-    "title": "ML Model Evaluation",
-    "course": "CS103",
-    "available": "2024-09-10T00:00",
-    "due": "2024-09-18T23:59",
-    "points": 100,
-    "description": "Train and evaluate a classification model using scikit-learn. Explore metrics such as accuracy, precision, and recall."
-  },
-  {
-    "_id": "A303",
-    "title": "Neural Network Design Project",
-    "course": "CS103",
-    "available": "2024-09-19T00:00",
-    "due": "2024-09-30T23:59",
-    "points": 150,
-    "description": "Build a basic feedforward neural network using Python. Train on a dataset and visualize the training process."
-  },
-
-  {
-    "_id": "A401",
-    "title": "User Interface Redesign",
-    "course": "CS104",
-    "available": "2024-09-01T00:00",
-    "due": "2024-09-07T23:59",
-    "points": 100,
-    "description": "Redesign an existing web interface focusing on usability, accessibility, and visual hierarchy."
-  },
-  {
-    "_id": "A402",
-    "title": "Usability Testing Report",
-    "course": "CS104",
-    "available": "2024-09-08T00:00",
-    "due": "2024-09-15T23:59",
-    "points": 100,
-    "description": "Conduct a usability test on a sample app. Collect feedback and write a usability evaluation report."
-  },
-  {
-    "_id": "A403",
-    "title": "Wireframing and Prototyping Task",
-    "course": "CS104",
-    "available": "2024-09-16T00:00",
-    "due": "2024-09-23T23:59",
-    "points": 100,
-    "description": "Design wireframes and interactive prototypes using tools like Figma or Adobe XD for a mobile-first application."
-  },
-
-  {
-    "_id": "A501",
-    "title": "Cloud Service Comparison",
-    "course": "CS106",
-    "available": "2024-09-01T00:00",
-    "due": "2024-09-08T23:59",
-    "points": 100,
-    "description": "Compare AWS, Azure, and GCP services. Highlight their offerings in compute, storage, and pricing models."
-  },
-  {
-    "_id": "A502",
-    "title": "AWS Deployment Exercise",
-    "course": "CS106",
-    "available": "2024-09-09T00:00",
-    "due": "2024-09-16T23:59",
-    "points": 100,
-    "description": "Deploy a static website using AWS S3 and CloudFront. Configure access permissions and monitor performance."
-  },
-  {
-    "_id": "A503",
-    "title": "Scalable Architecture Design",
-    "course": "CS106",
-    "available": "2024-09-17T00:00",
-    "due": "2024-09-25T23:59",
-    "points": 150,
-    "description": "Design a scalable cloud architecture for a web app using load balancing, autoscaling, and database replication."
-  },
-
-  {
-    "_id": "A601",
-    "title": "Cyber Attack Case Study",
-    "course": "CS105",
-    "available": "2024-09-02T00:00",
-    "due": "2024-09-09T23:59",
-    "points": 100,
-    "description": "Analyze a real-world cyber attack scenario. Identify vulnerabilities and propose prevention strategies."
-  },
-  {
-    "_id": "A602",
-    "title": "Encryption and Decryption Task",
-    "course": "CS105",
-    "available": "2024-09-10T00:00",
-    "due": "2024-09-17T23:59",
-    "points": 100,
-    "description": "Implement symmetric and asymmetric encryption techniques. Encrypt and decrypt sample text securely."
-  },
-  {
-    "_id": "A603",
-    "title": "Penetration Testing Simulation",
-    "course": "CS105",
-    "available": "2024-09-18T00:00",
-    "due": "2024-09-26T23:59",
-    "points": 150,
-    "description": "Conduct a simulated penetration test using open-source tools. Document findings and recommended fixes."
-  },
-
-  {
-    "_id": "A701",
-    "title": "Blockchain Structure Walkthrough",
-    "course": "CS107",
-    "available": "2024-09-01T00:00",
-    "due": "2024-09-07T23:59",
-    "points": 100,
-    "description": "Illustrate how a blockchain works by modeling blocks, hashing, and linking with a simplified implementation."
-  },
-  {
-    "_id": "A702",
-    "title": "Smart Contract Development",
-    "course": "CS107",
-    "available": "2024-09-08T00:00",
-    "due": "2024-09-16T23:59",
-    "points": 100,
-    "description": "Write and deploy a basic smart contract on an Ethereum testnet using Solidity and Remix."
-  },
-  {
-    "_id": "A703",
-    "title": "Decentralized App Demo",
-    "course": "CS107",
-    "available": "2024-09-17T00:00",
-    "due": "2024-09-27T23:59",
-    "points": 150,
-    "description": "Create a simple DApp that interacts with a smart contract and connects to MetaMask for wallet integration."
-  }
-]
+    {
+        "_id": "A101",
+        "title": "Propulsion Assignment",
+        "course": "RS101",
+        "available": "2024-05-06T00:00",
+        "due": "2024-05-13T23:59",
+        "points": 100,
+        "description": "Calculate thrust and specific impulse for various rocket engine configurations. Analyze chemical propulsion systems and compare their performance characteristics."
+    },
+    {
+        "_id": "A102",
+        "title": "Combustion Analysis",
+        "course": "RS101",
+        "available": "2024-05-13T00:00",
+        "due": "2024-05-20T23:59",
+        "points": 100,
+        "description": "Examine combustion processes in rocket engines, including flame temperature calculations and combustion efficiency analysis for different fuel-oxidizer combinations."
+    },
+    {
+        "_id": "A103",
+        "title": "Nozzle Design Project",
+        "course": "RS101",
+        "available": "2024-05-20T00:00",
+        "due": "2024-05-27T23:59",
+        "points": 100,
+        "description": "Design and optimize a rocket nozzle for maximum efficiency. Create detailed engineering drawings and perform computational fluid dynamics analysis."
+    },
+    {
+        "_id": "A201",
+        "title": "Aerodynamics Quiz",
+        "course": "RS102",
+        "available": "2024-05-27T00:00",
+        "due": "2024-06-03T23:59",
+        "points": 100,
+        "description": "Multiple choice and short answer questions covering fundamental aerodynamic principles, Bernoulli's equation, and airfoil theory."
+    },
+    {
+        "_id": "A202",
+        "title": "Flow Analysis",
+        "course": "RS102",
+        "available": "2024-06-03T00:00",
+        "due": "2024-06-10T23:59",
+        "points": 100,
+        "description": "Analyze subsonic and supersonic flow patterns around aircraft wings. Calculate lift and drag coefficients using computational methods."
+    },
+    {
+        "_id": "A203",
+        "title": "Heating Analysis",
+        "course": "RS102",
+        "available": "2024-06-10T00:00",
+        "due": "2024-06-17T23:59",
+        "points": 100,
+        "description": "Study aerodynamic heating effects on high-speed aircraft and spacecraft during atmospheric entry. Calculate heat transfer rates and thermal protection requirements."
+    },
+    {
+        "_id": "A301",
+        "title": "Structural Design Task",
+        "course": "RS103",
+        "available": "2024-06-17T00:00",
+        "due": "2024-06-24T23:59",
+        "points": 100,
+        "description": "Design the structural framework for a small satellite. Consider mass optimization, vibration resistance, and thermal expansion in your design calculations."
+    },
+    {
+        "_id": "A302",
+        "title": "Orbital Calculations",
+        "course": "RS103",
+        "available": "2024-06-24T00:00",
+        "due": "2024-07-01T23:59",
+        "points": 100,
+        "description": "Calculate orbital parameters for various mission scenarios. Determine delta-v requirements for orbit transfers and plan efficient trajectory maneuvers."
+    },
+    {
+        "_id": "A303",
+        "title": "Systems Engineering Exam",
+        "course": "RS103",
+        "available": "2024-07-01T00:00",
+        "due": "2024-07-08T23:59",
+        "points": 100,
+        "description": "Comprehensive exam covering spacecraft systems integration, reliability analysis, and project management principles for space missions."
+    },
+    {
+        "_id": "A401",
+        "title": "Organic Synthesis Lab",
+        "course": "RS104",
+        "available": "2024-07-08T00:00",
+        "due": "2024-07-15T23:59",
+        "points": 100,
+        "description": "Synthesize aspirin from salicylic acid and analyze the product using IR spectroscopy. Document reaction mechanisms and calculate theoretical yield."
+    },
+    {
+        "_id": "A402",
+        "title": "Spectroscopy Analysis",
+        "course": "RS104",
+        "available": "2024-07-15T00:00",
+        "due": "2024-07-22T23:59",
+        "points": 100,
+        "description": "Identify unknown organic compounds using NMR, IR, and mass spectrometry data. Interpret spectral patterns and propose molecular structures."
+    },
+    {
+        "_id": "A403",
+        "title": "Reaction Mechanisms Study",
+        "course": "RS104",
+        "available": "2024-07-22T00:00",
+        "due": "2024-07-29T23:59",
+        "points": 100,
+        "description": "Draw detailed reaction mechanisms for SN1, SN2, E1, and E2 reactions. Predict products and explain stereochemical outcomes."
+    },
+    {
+        "_id": "A501",
+        "title": "Coordination Complex Synthesis",
+        "course": "RS105",
+        "available": "2024-07-29T00:00",
+        "due": "2024-08-05T23:59",
+        "points": 100,
+        "description": "Synthesize and characterize a series of transition metal complexes. Analyze coordination geometry and determine oxidation states."
+    },
+    {
+        "_id": "A502",
+        "title": "Crystal Field Theory Analysis",
+        "course": "RS105",
+        "available": "2024-08-05T00:00",
+        "due": "2024-08-12T23:59",
+        "points": 100,
+        "description": "Apply crystal field theory to predict electronic configurations and magnetic properties of coordination compounds. Calculate crystal field stabilization energies."
+    },
+    {
+        "_id": "A503",
+        "title": "Catalysis Research Project",
+        "course": "RS105",
+        "available": "2024-08-12T00:00",
+        "due": "2024-08-19T23:59",
+        "points": 100,
+        "description": "Research and present on a specific catalytic process used in industry. Analyze reaction mechanisms and discuss environmental impact."
+    },
+    {
+        "_id": "A601",
+        "title": "Thermodynamics Problem Set",
+        "course": "RS106",
+        "available": "2024-08-19T00:00",
+        "due": "2024-08-26T23:59",
+        "points": 100,
+        "description": "Solve problems involving enthalpy, entropy, and Gibbs free energy calculations. Apply thermodynamic principles to chemical reactions and phase transitions."
+    },
+    {
+        "_id": "A602",
+        "title": "Kinetics Experiment",
+        "course": "RS106",
+        "available": "2024-08-26T00:00",
+        "due": "2024-09-02T23:59",
+        "points": 100,
+        "description": "Design and conduct experiments to determine reaction rates and activation energies. Analyze concentration-time data and propose reaction mechanisms."
+    },
+    {
+        "_id": "A603",
+        "title": "Quantum Mechanics Quiz",
+        "course": "RS106",
+        "available": "2024-09-02T00:00",
+        "due": "2024-09-09T23:59",
+        "points": 100,
+        "description": "Test understanding of quantum mechanical principles including wave functions, uncertainty principle, and particle-in-a-box models."
+    },
+    {
+        "_id": "A701",
+        "title": "Elvish Translation Project",
+        "course": "RS107",
+        "available": "2024-09-09T00:00",
+        "due": "2024-09-16T23:59",
+        "points": 100,
+        "description": "Translate ancient Elvish texts from Sindarin to English. Analyze grammatical structures and explain cultural significance of the passages."
+    },
+    {
+        "_id": "A702",
+        "title": "Dwarvish Script Analysis",
+        "course": "RS107",
+        "available": "2024-09-16T00:00",
+        "due": "2024-09-23T23:59",
+        "points": 100,
+        "description": "Decode Khuzdul inscriptions found on ancient Dwarvish artifacts. Compare script variations across different mountain settlements."
+    },
+    {
+        "_id": "A703",
+        "title": "Black Speech Linguistic Study",
+        "course": "RS107",
+        "available": "2024-09-23T00:00",
+        "due": "2024-09-30T23:59",
+        "points": 100,
+        "description": "Analyze the linguistic structure of the Black Speech of Mordor. Examine its phonology, morphology, and use in ceremonial contexts."
+    },
+    {
+        "_id": "A801",
+        "title": "Council of Elrond Case Study",
+        "course": "RS108",
+        "available": "2024-09-30T00:00",
+        "due": "2024-10-07T23:59",
+        "points": 100,
+        "description": "Analyze the diplomatic strategies employed during the Council of Elrond. Evaluate decision-making processes and alliance-building techniques."
+    },
+    {
+        "_id": "A802",
+        "title": "War of the Ring Diplomatic Analysis",
+        "course": "RS108",
+        "available": "2024-10-07T00:00",
+        "due": "2024-10-14T23:59",
+        "points": 100,
+        "description": "Examine the diplomatic challenges faced during the War of the Ring. Assess communication strategies between different races and kingdoms."
+    },
+    {
+        "_id": "A803",
+        "title": "Inter-species Alliance Paper",
+        "course": "RS108",
+        "available": "2024-10-14T00:00",
+        "due": "2024-10-21T23:59",
+        "points": 100,
+        "description": "Write a research paper on successful inter-species alliances in Middle-earth history. Propose frameworks for future diplomatic cooperation."
+    }
+];
